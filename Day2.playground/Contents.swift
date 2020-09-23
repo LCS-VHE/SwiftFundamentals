@@ -8,7 +8,10 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
  */
 
 var truple = (first: "Vincent", last: "He") // Making a truple
+print(truple.first) // Accessing variables in truple
+
 var array = [1,23,45,6,7,7] // Making an array with in swift
+
 var dict = [
     "Jason" : ["Name" : "Jason Zhang", "Heigh" : 1.7],
     "Vincent" : ["Name" :"Vincent He", "Heigh" : 2.5]
@@ -20,4 +23,10 @@ enum Planet: Int {
     case earth
     case mars
 }
+
+var fullFormDictionary = Dictionary<String, Double>()
+fullFormDictionary["Vincent Height"] = 1.7
+print(fullFormDictionary["Vincent Height"])
+
+
 

@@ -10,3 +10,23 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+for x in 3...10{
+    print(str)
+} // Printing from 3 to 10
+
+
+// A basic while loop in swift
+let state = true
+let count = 0
+while state{
+    count += 1
+    print("Hi What is up")
+    if count == 5{
+        state = false
+    }
+}
+
+//
+
+

@@ -9,6 +9,7 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var state = true
+
 if state{
     print("What is this stuff ? ")
 }

@@ -16,17 +16,21 @@ var dict = [
     "Jason" : ["Name" : "Jason Zhang", "Heigh" : 1.7],
     "Vincent" : ["Name" :"Vincent He", "Heigh" : 2.5]
 ]// This is an dict in swift
+a = dict["Vincent"]
+print(a)
 
 enum Planet: Int {
     case mercury
     case venus
     case earth
     case mars
-}
+} // I probably would never use this
 
 var fullFormDictionary = Dictionary<String, Double>()
 fullFormDictionary["Vincent Height"] = 1.7
+
 print(fullFormDictionary["Vincent Height"])
+
 
 
 

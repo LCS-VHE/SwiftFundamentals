@@ -10,3 +10,25 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+
+// Swift another cool things
+struct FamilyTree{
+    init(){
+        print("Creating family tree")
+    }
+    
+}
+//intina swift
+struct Student{
+    private var id:Double // A private variables in swift
+    lazy var familytree = FamilyTree() // Only created when family tree is accsessed
+    var name:String // like a private variables
+    
+    init(student_name:String){
+        self.name = student_name
+    }
+    
+}
+
+

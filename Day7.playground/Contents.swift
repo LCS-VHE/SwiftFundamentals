@@ -10,3 +10,8 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+ // CLousrues with two parms
+let a = { (mes: String, name: String) in
+    print("\(mes), Said by \(name)")
+}
+a("Hi I am not really interseting","Vincent He")

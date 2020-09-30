@@ -9,4 +9,9 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+var names : Set<String> = ["Vincent He", "Jason"] // define a set
+names.insert("Bosco") // adding a name to the set
+
+
+
+

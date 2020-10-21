@@ -25,10 +25,11 @@ struct Student{
     lazy var familytree = FamilyTree() // Only created when family tree is accsessed
     var name:String // like a private variables
     
-    init(student_name:String){
+    init(student_name:String, id:Double){
         self.name = student_name
+        self.id = id
     }
-    
 }
+
 
 
